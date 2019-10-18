@@ -20,6 +20,7 @@ class Form extends Component{
 
   submitForm = ()=>{
     this.props.handleSubmit(this.state.task)
+    this.setState(this.initialState)
   }
 
   render(){
